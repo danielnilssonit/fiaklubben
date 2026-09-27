@@ -1,5 +1,5 @@
 // Fiaklubben: sparar spelet i webbläsaren så att det startar även utan internet (rösten och musiken sparas när de har spelats en gång)
-const CACHE = 'fia-32ca214c3d';
+const CACHE = 'fia-5b7cde26c8';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png', './favicon-32.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(async c => {
